@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.android.uraall.carsdbwithroomstartercode"
+        applicationId "com.android.sergeiekgaus.carsdb"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
@@ -20,6 +20,12 @@ android {
 }
 
 dependencies {
+
+    def room_version = "2.2.6"
+
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'

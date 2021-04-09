@@ -1,4 +1,4 @@
-package com.android.uraall.carsdbwithroomstartercode;
+package com.android.sergeiekgaus.carsdb;
 
 import org.junit.Test;
 

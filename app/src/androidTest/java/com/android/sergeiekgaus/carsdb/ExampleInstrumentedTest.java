@@ -1,4 +1,4 @@
-package com.android.uraall.carsdbwithroomstartercode;
+package com.android.sergeiekgaus.carsdb;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.android.uraall.carsdbwithroomstartercode", appContext.getPackageName());
+        assertEquals("com.android.uraall.carsdb", appContext.getPackageName());
     }
 }
